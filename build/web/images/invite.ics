@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20240323T120000
+DTEND;TZID=Asia/Kolkata:20240323T130000
+DTSTAMP:20240322T072217Z
+ORGANIZER;CN=Priyanka Pawar:mailto:priyanka@nimapinfotech.com
+UID:44b5oga88u1tejd95tkov5qasi@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=ammailagishetti@gmail.com;X-NUM-GUESTS=0:mailto:ammailagishetti@gma
+ il.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/hiy-iopa-frn
+X-MICROSOFT-CDO-OWNERAPPTID:969075572
+CREATED:20240322T072156Z
+DESCRIPTION:<b>Please make sure your Video Face Camera should on On while a
+ ttending the drive.</b>\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://mee
+ t.google.com/hiy-iopa-frn\nOr dial: (US) +1 252-858-0065 PIN: 835967377#\nM
+ ore phone numbers: https://tel.meet/hiy-iopa-frn?pin=3119583120096&hs=7\n\n
+ Learn more about Meet at: https://support.google.com/a/users/answer/9282720
+ \n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20240322T072156Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Nimap Infotech - Online Campus 2024 Batch
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

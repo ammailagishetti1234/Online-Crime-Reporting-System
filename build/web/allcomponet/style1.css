@@ -1,0 +1,129 @@
+body {
+    background: #fff;  /*Set the background color of the body to white */
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.vertical-nav {
+    background: #007bff; /* Set the background color of the side nav bar to light black */
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.45;
+}
+.nav{
+    background: #007bff;
+}
+.page-content {
+    background: #fff;   /*Set the background color of the side body to white */
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+
+#sidebar.active {
+    
+    margin-left: -17rem;
+}
+#content.active {
+    width: 100%;
+    margin: 0;
+}
+.separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+}
+.text-uppercase {
+    Letter-spacing: 0.1em;
+}
+.text-gray {
+    color: #aaa;
+}
+.nav-link{
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    background:#f3f2f2;
+}
+.text-primary{
+    color:#7579e7 !important;
+}
+@media (max-width: 768px) {
+    #sidebar {
+        margin-Left: -17rem;
+    }
+    #sidebar.active{
+        margin-left: 0;
+    }
+    #content {
+        width: 100px;
+        margin: 0;
+    }
+    #content.active {
+        margin-Left: 17rem;
+        width: calc(100% - 17rem);
+    }
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.item {
+    background: #fff;
+    text-align: center;
+    padding: 30px 25px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.07);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 5px solid rgba(0,0,0,0.07);
+    -webkit-transistion: all 0.5s ease 0s;
+    transistion: all 0.5s ease 0s;
+}
+.item:hover {
+    background:#fff;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.item:hover .item,
+.item:hover span.icon{
+    background: #fff;
+    border-radius: 10px;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.item:hover h4{
+    color: #fff;
+    webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.item .icon{
+    font-size:40px;
+    margin-bottom:25px;
+    color:#999999;
+    width:90px;
+    height:90px;
+    line-height: 96px;
+    border-radius: 50px;
+}
+.item .feature_box_col_one{
+    background:rgba(0,108,255,0.15);
+    color:#999999;
+}
+.item .feature_box_col_two{
+    background:rgba(0,108,255,0.15);
+    color:#999999;
+}
+
+.custom-padding {
+    padding-left: 60px;  /*Adjust the value as needed */
+}
+
